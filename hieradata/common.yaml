@@ -59,7 +59,7 @@ profile::active::rep_key: |
   AnUgMbVkt9+XUQELK83Yl6cDWp+7ntcPPHbXUKxR4DaL8RECYQt3
   -----END RSA PRIVATE KEY-----
 
-profile::active::rep_key_name: '/opt/puppetlabs/server/postgresql/.ssh/pgha_id_rsa'
+profile::active::rep_key_name: '/opt/puppetlabs/server/data/postgresql/.ssh/pgha_id_rsa'
 
 profile::passive::rsync_user: "%{hiera('profile::active::rsync_user')}"
 profile::passive::rsync_user_homedir: '/root'
