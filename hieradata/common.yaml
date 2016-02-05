@@ -29,7 +29,7 @@ profile::active::rsync_key: |
   -----END RSA PRIVATE KEY-----
 
 profile::active::rsync_key_name: '/root/.ssh/puppet_ca_id_rsa'
-profile::active::rep_user: replicator
+profile::active::rep_user: 'pe-postgres'
 profile::active::rep_key: |
   -----BEGIN RSA PRIVATE KEY-----
   MIIEowIBAAKCAQEAyeo9b1AS71PRnyf1rvMi4eSpaMRy0cblAsIVw2xLyfvE4lcV
