@@ -27,8 +27,9 @@ profile::active::rsync_key: |
   d7crw2jB3kfbF9GN0YTmXtSj5EWDApk714wYpQpGk5QXcy32dZGCIDHVxw1b/YoL
   xfznEpsEisa86SlggIL4iPfYAB+sy23FoTTfhgWDW0/QRKOq1DJHyA==
   -----END RSA PRIVATE KEY-----
-profile::active::rsync_key_name: ''/root/.ssh/id_rsa'
-profile::active::rep_user: 'replicator'
+
+profile::active::rsync_key_name: '/root/.ssh/id_rsa'
+profile::active::rep_user: replicator
 profile::active::rep_key: |
   -----BEGIN RSA PRIVATE KEY-----
   MIIEowIBAAKCAQEAyeo9b1AS71PRnyf1rvMi4eSpaMRy0cblAsIVw2xLyfvE4lcV
@@ -57,6 +58,7 @@ profile::active::rep_key: |
   b2I1uXEhtOB3Gz8ct3aCg+i+M4MwlKBDzXGa94lSR5WXO63A3mogy8/HF3dadoDh
   AnUgMbVkt9+XUQELK83Yl6cDWp+7ntcPPHbXUKxR4DaL8RECYQt3
   -----END RSA PRIVATE KEY-----
+
 profile::active::rep_key_name: '/opt/puppetlabs/server/data/.ssh/id_rsa'
 
 profile::passive::rsync_user: "%{hiera('profile::active::rsync_user')}"
