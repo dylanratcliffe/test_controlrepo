@@ -70,6 +70,7 @@ profile::passive::rep_user_pub: 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDJ6j1vUBLvU9GfJ/W
 
 
 puppet_enterprise::dashboard_database_password: 'zuWeyzl3HJ0G749PzdwR'
+puppet_enterprise::activity_database_password: 'zuWeyzl3HJ0G749PzdwR'
 puppet_enterprise::classifier_database_password: 'Jix9QJ4wq8dGkrvEmT0d'
 puppet_enterprise::puppetdb_database_password: 'strongpassword1748'
 puppet_enterprise::rbac_database_password: 'wab9UTh5c8jU0rRwOW1y'
