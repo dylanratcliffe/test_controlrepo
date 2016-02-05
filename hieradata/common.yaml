@@ -67,3 +67,11 @@ profile::passive::rsync_user_pub: 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDdcJ5ARhxoNqU5m
 profile::passive::rep_user: "%{hiera('profile::active::rep_user')}"
 profile::passive::rep_user_homedir: '/opt/puppetlabs/server/data/postgresql'
 profile::passive::rep_user_pub: 'AAAAB3NzaC1yc2EAAAADAQABAAABAQDJ6j1vUBLvU9GfJ/Wu8yLh5KloxHLRxuUCwhXDbEvJ+8TiVxU/dXSgS8VdUdL8STJEmUOiQTw282kF3pgxuyvwtNAOMoRpvGrBxuoncUxnPkpylydLnRPS0UU3sZFoxFV+MB65JC+r9XNfccWg3Oo82Jz/sg+V9Gpo/yt51X/kDaGMjdOtxcq7Ne8HY8sIUi+X/wy2eauGzMHOemum8bkMEVj0ns6JBz0eqidkgWsewkUQx/3yLwVCTRv8ZWxkUCGAFOqmFhYn0EEphF+WnbJsh4kp392R8G/faUJvxjSnLqD9ywKWIsFbIi+k5t40/THi5KHKDQp6fUYQG7KUA/Kp'
+
+
+puppet_enterprise::dashboard_database_password: 'zuWeyzl3HJ0G749PzdwR'
+puppet_enterprise::classifier_database_password: 'Jix9QJ4wq8dGkrvEmT0d'
+puppet_enterprise::puppetdb_database_password: 'strongpassword1748'
+puppet_enterprise::rbac_database_password: 'wab9UTh5c8jU0rRwOW1y'
+pe_ha::active::replication_user_password: 'potato'
+pe_ha::passive::replication_user_password: 'potato'
